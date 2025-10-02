@@ -1,0 +1,29 @@
+﻿name: Cycle / Experiment Proposal
+description: Propose a conservative-recursive cycle or experiment
+title: "[Cycle] "
+labels: ["cycle","experiment"]
+body:
+  - type: textarea
+    attributes:
+      label: Proposition
+      description: What is the minimal proposition that starts the cycle?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Backend Recursion
+      description: What conservative transformation is applied (no accumulation)?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Frontend Fragment(s)
+      description: What motif(s) are introduced by participants?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Horizon / Output
+      description: What should the reconfiguration reveal (image, sound, metric)?
+    validations:
+      required: true
